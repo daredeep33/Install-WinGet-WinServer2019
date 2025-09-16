@@ -40,9 +40,8 @@ This is the fastest way to install `winget`. It downloads and runs the script in
 2.  Copy and run the following command. This command temporarily bypasses the execution policy for the current session, downloads the script, and executes it.
 
 ```powershell
-Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPOSITORY/main/Install-Winget.ps1'))
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://github.com/daredeep33/Install-WinGet-WinServer2019/blob/main/InstallWinget_WINSERV2019.ps1'))
 ```
-> **Important:** Replace `YOUR_USERNAME/YOUR_REPOSITORY` with your actual GitHub username and repository name.
 
 ---
 
