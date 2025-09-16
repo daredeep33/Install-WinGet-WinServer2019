@@ -1,6 +1,6 @@
 # Install-Winget PowerShell Script
 
-![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B-blue)![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B-blue)  ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 A robust and reliable PowerShell script to install the Windows Package Manager (`winget`) on systems where it is not available by default, such as Windows Server 2019/2022 and earlier versions of Windows 10.
 
@@ -75,7 +75,3 @@ If you encounter an error running the script locally that says "script execution
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
 ```Then, confirm the change by typing `Y` and pressing Enter.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
